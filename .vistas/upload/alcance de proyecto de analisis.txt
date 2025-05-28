@@ -1,0 +1,15 @@
+* Etapa 1: viernes 19
+     - Iniciar Seción
+     - Registrar Usuario
+     - Denunciar necesidad de limpieza (vecino)
+     - Denunciar necesidad de fumigación (vecino)
+     - Consultar posibles focos de dengue (vecino)
+* Etapa 2: martes 23
+     - Recepcion de las denuncia (Empleado)
+     - Derivar denuncias (Empleado)
+     - Recepcion de denuncias deribadas (Responsable del sector)
+     - Gestionar las denuncias (Responsable del sector)
+* Etapa 3: sabado 27
+     - Derivar el informe considerado posibles focos al administrador (Responsable del sector)
+     - El administrador recibe el informe y configura el mapa, cargando las ubicaciones 
+       consideradas focos para presentar al vecino(Administrador)
