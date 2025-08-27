@@ -1,63 +1,72 @@
-📘 PrimMat
+<h1 align="center">📘 Primmat</h1>  
+<p align="center">
+  <b>A free educational platform for primary school mathematics</b>  
+</p>  
 
-PrimMat is a free educational platform designed to support primary school mathematics teaching and learning.
-Its goal is to bring technology closer to teachers and students through an interactive, accessible, and engaging environment.
+<p align="center">
+  🌐 Built with <b>PHP, HTML, CSS & JavaScript</b>  
+</p>  
 
-────────────────────────────────────────────────────────────
+<p align="center">
+  <a href="#-features">✨ Features</a> •
+  <a href="#-installation">🚀 Installation</a> •
+  <a href="#-purpose">🎯 Purpose</a> •
+  <a href="#-live-demo">🌍 Live Demo</a>
+</p>  
 
-✨ Features
+---
 
-👩‍🏫 Teacher Dashboard – Manage and create customized exercises.
+# 📘 About  
 
-📚 Custom Resources – Generate didactic content tailored to students’ needs.
+**PrimMat** is a free educational platform designed to support **primary school mathematics teaching and learning**.  
+Its goal is to bring **technology closer to teachers and students** through an **interactive, accessible, and engaging environment**.  
 
-🎓 Student-Friendly Interface – Simple and intuitive to promote independent learning.
+---
 
-⚡ Interactive Environment – Encourages active participation and practice.
+## ✨ Features  
 
-🎯 Focused Learning – Addresses key challenges in primary mathematics education.
+- 👩‍🏫 **Teacher Dashboard** – Manage and create customized exercises.  
+- 📚 **Custom Resources** – Generate didactic content tailored to students’ needs.  
+- 🎓 **Student-Friendly Interface** – Simple and intuitive to promote independent learning.  
+- ⚡ **Interactive Environment** – Encourages active participation and practice.  
+- 🎯 **Focused Learning** – Addresses key challenges in primary mathematics education.  
 
-🛠️ Technologies Used
+---
 
-🐘 PHP – Backend logic & data handling
+## 🛠️ Technologies Used  
 
-🌐 HTML5 – Structure and content
+- 🐘 **PHP** – Backend logic & data handling  
+- 🌐 **HTML5** – Structure and content  
+- 🎨 **CSS3** – Styling and layout  
+- ⚙️ **JavaScript** – Interactivity  
 
-🎨 CSS3 – Styling and layout
+---
 
-⚙️ JavaScript – Interactivity
+## 🚀 Installation  
 
-────────────────────────────────────────────────────────────
+Follow these steps to run the project locally:  
 
-🚀 Installation
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/primmat.git
+2. Install and start XAMPP (or any local server supporting PHP & MySQL).
 
-Follow these steps to run the project locally:
+3. Move the project folder to the htdocs directory inside your XAMPP installation.
 
-Clone the repository
-
-git clone https://github.com/your-username/primmat.git
-
-Install and start XAMPP (or any local server supporting PHP & MySQL).
-
-Move the project folder to the htdocs directory inside your XAMPP installation.
-
-Import the database
-
+4. Import the database
 Open phpMyAdmin
-
 Create a new database (e.g., primmat).
-
 Import the .sql file included in the project.
 
-Start Apache & MySQL from the XAMPP control panel.
+5. Start Apache & MySQL from the XAMPP control panel.
 
-Access the project in your browser:
+6. Access the project in your browser:
 
 http://localhost/primmat
 
-────────────────────────────────────────────────────────────
+---
 
-🎯 Purpose
+## 🎯 Purpose
 
 PrimMat is not just a tool, but a proposal to enhance educational quality by:
 
@@ -67,8 +76,8 @@ PrimMat is not just a tool, but a proposal to enhance educational quality by:
 
 ✅ Bridging the gap between technology and education at the primary level.
 
-────────────────────────────────────────────────────────────
+---
 
-📄 License
+##  📄 License
 
 This project is released under the MIT License.
