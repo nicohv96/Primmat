@@ -52,10 +52,10 @@ Follow these steps to run the project locally:
 
 3. Move the project folder to the htdocs directory inside your XAMPP installation.
 
-4. Import the database
-  Open phpMyAdmin
-  Create a new database (e.g., primmat).
-  Import the .sql file included in the project.
+4. Import the database.
+  - Open phpMyAdmin
+  - Create a new database (e.g., primmat).
+  - Import the .sql file included in the project.
 
 5. Start Apache & MySQL from the XAMPP control panel.
 
