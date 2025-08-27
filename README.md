@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#-features">✨ Features</a> •
   <a href="#-installation">🚀 Installation</a> •
-  <a href="#-purpose">🎯 Purpose</a> •
+  <a href="#-purpose">🎯 Purpose</a>
 </p>  
 
 ---
