@@ -104,12 +104,6 @@ CREATE TABLE `clase` (
   `rela_usuario` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
---
--- Volcado de datos para la tabla `clase`
---
-
-INSERT INTO `clase` (`id_clase`, `codigo_clase`, `nombre_clase`, `desc_clase`, `rela_usuario`) VALUES
-(4, 9818, 'Lengua', 'En esta clase se imparte lengua', 3);
 
 -- --------------------------------------------------------
 
@@ -126,14 +120,6 @@ CREATE TABLE `detalle_clase` (
 --
 -- Volcado de datos para la tabla `detalle_clase`
 --
-
-INSERT INTO `detalle_clase` (`id_detalle_clase`, `rela_usuario`, `rela_clase`) VALUES
-(3, 1, 4),
-(6, 1, 12),
-(7, 4, 12),
-(8, 4, 13),
-(9, 1, 14),
-(10, 1, 15);
 
 -- --------------------------------------------------------
 
@@ -180,10 +166,7 @@ CREATE TABLE `persona` (
 --
 
 INSERT INTO `persona` (`id_persona`, `nombre_persona`, `apellido_persona`, `rela_usuario`) VALUES
-(1, 'Nicolas', 'Villalba', 1),
-(2, 'ale', 'villalba', 2),
-(3, 'Ronaldo', 'Almiron', 3),
-(4, 'Enrique', 'Vangel', 4);
+(1, 'Nicolas', 'Villalba', 1);
 
 -- --------------------------------------------------------
 
@@ -268,10 +251,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usuario`, `user_name`, `password`, `rela_tipo_usuario`) VALUES
-(1, 'nico', '123', 1),
-(2, 'ale', '123', 2),
-(3, 'rony', '123', 2),
-(4, 'enrique', '123', 1);
+(1, 'admin', 'admin', 1);
 
 --
 -- Índices para tablas volcadas
